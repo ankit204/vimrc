@@ -12,8 +12,11 @@ au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
 au BufWrite /private/etc/pw.* set nowritebackup nobackup
 syntax on
 
-"Split Navigation"
+" Split Navigation"
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Tab stuff"
+set tabstop=4 shiftwidth=4 expandtab
